@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#BAAA1C"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="22dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8E863C"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:padding="12dp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow"
+                android:layout_gravity="right"
+                >
+
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+            <TextView
+            android:id="@+id/ids"
+            android:layout_width="match_parent"
+            android:padding="12dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:padding="12dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/userid"
+            android:layout_width="match_parent"
+            android:padding="12dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
